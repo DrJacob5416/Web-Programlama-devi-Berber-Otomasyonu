@@ -5,7 +5,9 @@ namespace Berber.Models.Tables
 {
     public class WorkerMission
     {
-        public int WorkerId { get; set; }
+        [Key]
+        public int Id { get; set; }
+        public string WorkerId { get; set; }
         [ForeignKey(nameof(WorkerId))]
         public Worker Worker { get; set; }
         public int MissionId { get; set; }

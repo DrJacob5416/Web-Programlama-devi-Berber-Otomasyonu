@@ -2,7 +2,7 @@
 
 namespace Berber.Models.Tables
 {
-    public class ApplicationRole : IdentityRole<string>
+    public class ApplicationRole : IdentityRole
     {
     }
 }

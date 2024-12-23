@@ -20,3 +20,22 @@ html {
 body {
   margin-bottom: 60px;
 }
+.user-item {
+    margin:.5em 0;
+}
+.user-item .select-user{
+    padding:.5em 10em;
+    text-transform:uppercase;
+    font-weight:600;
+    border:none;
+    border-top:1px solid #c2bdbd;
+    border-bottom:2px solid black;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+}
+#userDetails{
+    display:none;
+}
+#userDetails.show {
+    display: block;
+}

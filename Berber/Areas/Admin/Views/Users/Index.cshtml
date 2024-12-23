@@ -1,0 +1,108 @@
+﻿@using Berber.Areas.Admin.Models
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@model UserRoleViewModel
+
+<h3>Kullanıcılar ve Rolleri</h3>
+
+<!-- Kullanıcıları listele -->
+<div id="userList">
+    @foreach (var user in Model.Users)
+    {
+        <div class="user-item">
+            <button class="btn select-user" data-user-id="@user.Id">@user.FullName</button>
+        </div>
+    }
+</div>
+
+<!-- Seçilen kullanıcıya ait bilgiler ve roller -->
+<div id="userDetails">
+    <h4 id="userFullName"></h4>
+    <p id="userEmail"></p>
+
+    <!-- Kullanıcıya ait rollerin olduğu select -->
+    <select id="userRoleSelect" class="form-control">
+        <option value="">Rol Seçin</option>
+        @foreach (var role in Model.Roles)
+        {
+            <option value="@role.Name">@role.Name</option>
+        }
+    </select>
+    
+    <!-- Kaydet Butonu -->
+    <button type="button" id="saveRoleBtn" class="btn btn-success">Kaydet</button>
+    <button type="button" id="cancelRoleBtn" class="btn btn-danger">İptal</button>
+</div>
+
+
+
+
+@section Scripts {
+    <!-- JavaScript -->
+    <script>
+        $(document).ready(function () {
+            var selectedUserId = null;
+
+            // Kullanıcı seçildiğinde bilgileri göster
+            $('.select-user').click(function () {
+                selectedUserId = $(this).data('user-id');
+
+                // Kullanıcı bilgilerini almak için AJAX çağrısı yapılabilir
+                var user = @Html.Raw(Json.Serialize(Model.Users)); // Tüm kullanıcı bilgilerini al
+
+                // Seçilen kullanıcıyı bul
+                var selectedUser = user.find(u => u.id === selectedUserId);
+
+                // Kullanıcı bilgilerini sayfada göster
+                $('#userFullName').text(selectedUser.fullName);
+                $('#userEmail').text(selectedUser.email);
+
+                // Rolleri select içine yerleştir
+                $('#userRoleSelect').val(selectedUser.role);
+
+                // Kullanıcı bilgilerini ve rol seçimi kısmını göster
+                $('#userDetails');
+                document.getElementById("userDetails").classList.add('show');
+            });
+
+            // Kaydet butonuna tıklanırsa, rolü güncelle
+            $('#saveRoleBtn').click(function () {
+                var selectedRole = $('#userRoleSelect').val();
+
+                if (!selectedRole) {
+                    alert("Lütfen bir rol seçin.");
+                    return;
+                }
+
+                // AJAX çağrısı ile veriyi server'a gönder
+                $.ajax({
+                    url: '/Admin/Users/UpdateRole',
+                    type: 'POST',
+                    data: {
+                        userId: selectedUserId,
+                        role: selectedRole
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            document.getElementById("userDetails").classList.remove('show');
+                            alert("Rol başarıyla güncellendi.");
+                            location.reload(); // Sayfayı yenile
+                        } else {
+                            alert("Bir hata oluştu.");
+                        }
+                    },
+                    error: function () {
+                        alert("Bir hata oluştu.");
+                    }
+                });
+            });
+            $('#cancelRoleBtn').click(function () {
+                document.getElementById("userDetails").classList.remove('show');
+            });
+        });
+    </script>
+}

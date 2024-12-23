@@ -6,7 +6,7 @@ namespace Berber.Models.Tables
     public class Worker
     {
         [Key,ForeignKey("ApplicationUser")]
-        public int Id { get; set; }
+        public string Id { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
         public ICollection<WorkerMission> WorkerMissions { get; set; }
     }
