@@ -28,6 +28,22 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Missions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWlzc2lvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Missions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWlzc2lvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Missions/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWlzc2lvbnNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Shared/Components/CreateWorkerMission/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ3JlYXRlV29ya2VyTWlzc2lvblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/WorkerMissions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV29ya2VyTWlzc2lvbnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/_ViewImports.cshtml]
@@ -58,6 +78,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/SignIn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbkluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/SignUp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/_ViewImports.cshtml]

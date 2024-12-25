@@ -1,0 +1,24 @@
+﻿@using Berber.Areas.Admin.Models
+@model CreateWorkerMissionModel
+
+<form asp-area="Admin" asp-controller="WorkerMissions" asp-action="Create">
+    <input type="hidden" asp-for="WorkerId" />
+    <div>
+        <label asp-for="MissionId"></label>
+        <select asp-for="MissionId" asp-items="@Model.Missions"><option> -- Eklemek İstediğiniz Hizmeti Seçiniz --</option></select>
+        <span asp-validation-for="MissionId"></span>
+    </div>
+    <div>
+        <label asp-for="Time"></label>
+        <input asp-for="Time" />
+        <span asp-validation-for="Time"></span>
+    </div>
+    <div>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" />
+        <span asp-validation-for="Price"></span>
+    </div>
+    <div>
+        <button type="submit">Ekle</button>
+    </div>
+</form>

@@ -1,0 +1,19 @@
+﻿@using Berber.Models.ServiceModels
+@model MissionCreateModel
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<form asp-area="Admin" asp-controller="Missions" asp-action="Create">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <button type="submit">Kaydet</button>
+    </div>
+</form>

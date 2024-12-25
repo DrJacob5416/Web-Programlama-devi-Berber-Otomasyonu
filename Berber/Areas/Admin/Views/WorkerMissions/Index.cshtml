@@ -1,0 +1,33 @@
+﻿@using Berber.Models.Tables
+@model List<WorkerMission>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+@await Component.InvokeAsync("CreateWorkerMission", new { workerid = ViewBag.Userid})
+
+<div class="row">
+    <div class="col">Hizmet</div>
+    <div class="col">Fiyat</div>
+    <div class="col">Süre</div>
+    <div class="col">Uzmanlık</div>
+</div>
+@foreach(var item in Model){
+    <div class="row">
+        <div class="col">@item.Mission.Name</div>
+        <div class="col">@item.Price</div>
+        <div class="col">@item.Time</div>
+        <div class="col">
+            @if(item.isSpecialist){
+                <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="ChangeStatus" asp-route-id="@item.Id" asp-route-userId="@item.WorkerId" class="btn btn-warning">Çıkar</a>
+            }
+            else
+            {
+                <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="ChangeStatus" asp-route-id="@item.Id" asp-route-userId="@item.WorkerId" class="btn btn-success">Ekle</a>
+            }
+            <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="Delete" asp-route-id="@item.Id" asp-route-userId="@item.WorkerId" class="btn btn-warning">Sil</a>
+        </div>
+    </div>
+}

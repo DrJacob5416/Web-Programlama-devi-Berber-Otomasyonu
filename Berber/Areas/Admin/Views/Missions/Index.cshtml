@@ -1,0 +1,21 @@
+﻿@using Berber.Models.Tables
+@model List<Mission>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hizmetler<a asp-area="Admin" asp-controller="Missions" asp-action="Create" class="float-end">Yeni Hizmet</a></h1>
+<div class="row">
+    <div class="col"><strong>İsim</strong></div>
+    <div class="col"><strong>İşlemler</strong></div>
+</div>
+@foreach(var mis in Model){
+    <div class="row">
+        <div class="col">@mis.Name</div>
+        <div class="col">
+            <a asp-area="Admin" asp-controller="Missions" asp-action="Update" asp-route-id="@mis.Id">Güncelle</a>
+            <a asp-area="Admin" asp-controller="Missions" asp-action="Delete" asp-route-id="@mis.Id">Sil</a>
+        </div>
+    </div>
+}

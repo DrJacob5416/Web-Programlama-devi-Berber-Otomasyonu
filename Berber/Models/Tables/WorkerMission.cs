@@ -9,7 +9,7 @@ namespace Berber.Models.Tables
         public int Id { get; set; }
         public string WorkerId { get; set; }
         [ForeignKey(nameof(WorkerId))]
-        public Worker Worker { get; set; }
+        public ApplicationUser Worker { get; set; }
         public int MissionId { get; set; }
         [ForeignKey(nameof(MissionId))]
         public Mission Mission { get; set; }

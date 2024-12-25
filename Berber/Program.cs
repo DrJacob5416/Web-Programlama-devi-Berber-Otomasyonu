@@ -1,4 +1,5 @@
 using Berber.Models.Database;
+using Berber.Models.DatabaseOperations.Operations;
 using Berber.Models.Tables;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,9 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(opt =>
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddScoped<IMissionOp, MissionOp>();
+builder.Services.AddScoped<IWorkerMissionOp, WorkerMissionOp>();
+builder.Services.AddScoped<IWorkingHourOp, WorkingHourOp>();
 
 
 builder.Services.ConfigureApplicationCookie(opt =>

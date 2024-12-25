@@ -1,4 +1,6 @@
 ﻿@using Berber.Areas.Admin.Models
+@using Berber.Models.Tables
+@using Microsoft.AspNetCore.Identity
 
 @{
     ViewData["Title"] = "Index";
@@ -13,8 +15,19 @@
 <div id="userList">
     @foreach (var user in Model.Users)
     {
-        <div class="user-item">
-            <button class="btn select-user" data-user-id="@user.Id">@user.FullName</button>
+        <div class="row">
+            <div class="user-item col">
+                <button class="btn select-user" data-user-id="@user.Id">@user.FullName</button>
+            </div>
+            <div class="col">
+                <b>@user.Role</b>
+            </div>
+            <div class="col">
+                @if (user.Role == "Worker")
+                {
+                    <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="Index" asp-route-userid="@user.Id">Kullanıcı Hizmetleri</a>
+                }
+            </div>
         </div>
     }
 </div>

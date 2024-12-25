@@ -12,12 +12,13 @@ namespace Berber.Models.Database
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Worker>()
-                .HasOne(w => w.ApplicationUser)
-                .WithOne(u => u.Worker)
-                .HasForeignKey<Worker>(w => w.Id);
 
-           
+            modelBuilder.Entity<WorkingHour>()
+                .HasOne(wm => wm.Worker)
+                .WithMany()
+                .HasForeignKey(wm => wm.WorkerId)
+                .OnDelete(DeleteBehavior.Cascade);
+
             modelBuilder.Entity<WorkerMission>()
                 .HasOne(wm => wm.Worker)         
                 .WithMany(w => w.WorkerMissions)  
@@ -32,7 +33,7 @@ namespace Berber.Models.Database
                 .OnDelete(DeleteBehavior.Restrict);
         }
         DbSet<WorkerMission> WorkMissions { get; set; }
-        DbSet<Worker> Workers { get; set; }
         DbSet<Mission> Missions { get; set; }
+        DbSet<WorkingHour> WorkingHours { get; set; }
     }
 }
