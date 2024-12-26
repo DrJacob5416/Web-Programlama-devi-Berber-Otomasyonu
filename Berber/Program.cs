@@ -26,6 +26,7 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(opt =>
 builder.Services.AddScoped<IMissionOp, MissionOp>();
 builder.Services.AddScoped<IWorkerMissionOp, WorkerMissionOp>();
 builder.Services.AddScoped<IWorkingHourOp, WorkingHourOp>();
+builder.Services.AddScoped<IAppointmentOp, AppointmentOp>();
 
 
 builder.Services.ConfigureApplicationCookie(opt =>

@@ -31,9 +31,22 @@ namespace Berber.Models.Database
                 .WithMany(m => m.WorkerMissions)                      
                 .HasForeignKey(wm => wm.MissionId) 
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Appointment>()
+                .HasOne(wm => wm.User)
+                .WithMany(m => m.Appointments)
+                .HasForeignKey(wm => wm.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Appointment>()
+                .HasOne(wm => wm.WorkerMission)
+                .WithMany(w=>w.Appointments)
+                .HasForeignKey(wm => wm.WorkerMissionId)
+                .OnDelete(DeleteBehavior.NoAction);
         }
         DbSet<WorkerMission> WorkMissions { get; set; }
         DbSet<Mission> Missions { get; set; }
         DbSet<WorkingHour> WorkingHours { get; set; }
+        DbSet<Appointment> Appointments { get; set; }
     }
 }

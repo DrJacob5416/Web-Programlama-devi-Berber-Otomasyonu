@@ -7,5 +7,6 @@ namespace Berber.Models.Tables
         public string FullName { get; set; }
         public WorkingHour? WorkingHour { get; set; }
         public ICollection<WorkerMission> WorkerMissions { get; set; }
+        public ICollection<Appointment> Appointments { get; set; }
     }
 }

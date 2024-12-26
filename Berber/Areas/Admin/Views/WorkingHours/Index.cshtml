@@ -1,0 +1,42 @@
+﻿@using Berber.Models.Tables
+@model WorkingHour
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@if (ViewData["SuccessMessage"]!=null){
+    <div class="bg-success d-block w-100 p-3">
+        @ViewData["SuccessMessage"]
+    </div>
+}
+<h1>Index</h1>
+<form method="post" asp-area="Admin" asp-controller="WorkingHours" asp-action="Index">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="WorkerId" />
+    @if(Model.Worker!=null){
+        <input disabled asp-for="Worker.UserName" />
+        <input disabled asp-for="Worker.FullName" />
+    }
+    <div>
+        <label asp-for="StartDate"></label>
+        <input asp-for="StartDate" type="datetime-local" />
+        <span asp-validation-for="StartDate"></span>
+    </div>
+    <div>
+        <label asp-for="EndDate"></label>
+        <input asp-for="EndDate" type="datetime-local" />
+        <span asp-validation-for="EndDate"></span>
+    </div>
+    <div>
+        <label asp-for="StartHour"></label>
+        <input asp-for="StartHour" type="time" />
+        <span asp-validation-for="StartHour"></span>
+    </div>
+    <div>
+        <label asp-for="EndHour"></label>
+        <input asp-for="EndHour" type="time" />
+        <span asp-validation-for="EndHour"></span>
+    </div>
+    <div><button type="submit">Kaydet</button></div>
+</form>
+

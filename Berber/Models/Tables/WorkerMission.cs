@@ -16,5 +16,6 @@ namespace Berber.Models.Tables
         public int Price { get; set; }
         public int Time { get; set; }
         public bool isSpecialist { get; set; }
+        public ICollection<Appointment> Appointments { get; set; }
     }
 }

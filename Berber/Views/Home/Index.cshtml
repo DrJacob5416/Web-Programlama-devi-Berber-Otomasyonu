@@ -1,8 +1,77 @@
-﻿@{
+﻿@using Berber.Models.Tables
+@model List<Mission>
+@{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<a asp-controller="Home" asp-action="AppointmentHistory">Randevu Geçmişi</a>
+<ul>
+    @foreach (var mission in Model)
+    {
+        <li><a asp-controller="Home" asp-action="Index" asp-route-missionid="@mission.Id">@mission.Name</a></li>
+    }
+</ul>
+@if(ViewBag.MissionId!=null){
+    foreach(var mission in Model){
+        if(mission.Id==ViewBag.MissionId){
+            <input id="dayTime" value="Randevu tarihini seçiniz" type="datetime-local" />
+            <input id="hourTime" value="Randevu saatini seçiniz" type="time" />
+            <table class="table">
+                <tr>
+                    <th>Çalışan</th>
+                    <th>Fiyat</th>
+                    <th>Zaman (dk)</th>
+                    <th></th>
+                </tr>
+                @foreach(var workermission in mission.WorkerMissions){
+                    <tr>
+                        <td>@workermission.Worker.FullName @if(workermission.isSpecialist){<b> + Usta</b>}</td>
+                        <td>@workermission.Price</td>
+                        <td>@workermission.Time</td>
+                        <td><button type="button" data-id="@workermission.Id">Randevu al</button></td>
+                    </tr>
+                }
+            </table>
+
+
+            break;
+        }
+    }
+}
+@section Scripts{
+    <script>
+        $(document).on('click', 'button[data-id]', function () {
+            // İlgili değerleri al
+            var dayTime = $('#dayTime').val();
+            var hourTime = $('#hourTime').val();
+            var workerMissionId = $(this).data('id');
+            console.log(hourTime);
+            console.log(dayTime);
+            console.log(workerMissionId.toString());
+            // AJAX ile gönder
+            $.ajax({
+                url: '/Home/CreateAppointment', // Controller ve Action yolunu değiştirin
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    DayTime: dayTime,
+                    HourTime: hourTime,
+                    WorkerMissionId: workerMissionId.toString()
+                }),
+                success: function (response) {
+                    if (response.success) {
+                        alert('Randevu başarıyla alındı!');
+                        location.reload(); // Gerekirse sayfayı yenileyin
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('Bir hata oluştu. Lütfen tekrar deneyin.');
+                }
+            });
+        });
+
+    </script>
+}

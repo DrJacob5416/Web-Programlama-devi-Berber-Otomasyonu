@@ -26,6 +26,7 @@
                 @if (user.Role == "Worker")
                 {
                     <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="Index" asp-route-userid="@user.Id">Kullanıcı Hizmetleri</a>
+                    <a asp-area="Admin" asp-controller="WorkingHours" asp-action="Index" asp-route-userid="@user.Id">Çalışma Saatleri</a>
                 }
             </div>
         </div>
