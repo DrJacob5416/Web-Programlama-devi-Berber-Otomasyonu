@@ -9,7 +9,7 @@
 
 @model UserRoleViewModel
 
-<h3>Kullanıcılar ve Rolleri</h3>
+<span class="page-title"><span>Kullanıcılar ve Rolleri</span></span>
 
 <!-- Kullanıcıları listele -->
 <div id="userList">
@@ -17,7 +17,7 @@
     {
         <div class="row">
             <div class="user-item col">
-                <button class="btn select-user" data-user-id="@user.Id">@user.FullName</button>
+                <button class="select-user text-gray" data-user-id="@user.Id">@user.FullName</button>
             </div>
             <div class="col">
                 <b>@user.Role</b>
@@ -25,29 +25,31 @@
             <div class="col">
                 @if (user.Role == "Worker")
                 {
-                    <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="Index" asp-route-userid="@user.Id">Kullanıcı Hizmetleri</a>
-                    <a asp-area="Admin" asp-controller="WorkingHours" asp-action="Index" asp-route-userid="@user.Id">Çalışma Saatleri</a>
+                    <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="Index" asp-route-userid="@user.Id" class="link-normal">Hizmet Ayarları</a>
+                    <a asp-area="Admin" asp-controller="WorkingHours" asp-action="Index" asp-route-userid="@user.Id" class="link-normal">Çalışma Saatleri</a>
                 }
             </div>
         </div>
     }
 </div>
 
-<!-- Seçilen kullanıcıya ait bilgiler ve roller -->
-<div id="userDetails">
-    <h4 id="userFullName"></h4>
-    <p id="userEmail"></p>
 
-    <!-- Kullanıcıya ait rollerin olduğu select -->
-    <select id="userRoleSelect" class="form-control">
-        <option value="">Rol Seçin</option>
-        @foreach (var role in Model.Roles)
-        {
-            <option value="@role.Name">@role.Name</option>
-        }
-    </select>
+<div id="userDetails">
+    <h4 id="userFullName" class="text-gray"></h4>
+    <p id="userEmail" class="text-gray"></p>
+
+    <div class="userInputDiv">
+        <b class="d-block text-gray mb-2">Rol seçiniz : </b>
+        <select id="userRoleSelect" class="form-control">
+            <option value="">Rol Seçin</option>
+            @foreach (var role in Model.Roles)
+            {
+                <option value="@role.Name">@role.Name</option>
+            }
+        </select>
+    </div>
     
-    <!-- Kaydet Butonu -->
+
     <button type="button" id="saveRoleBtn" class="btn btn-success">Kaydet</button>
     <button type="button" id="cancelRoleBtn" class="btn btn-danger">İptal</button>
 </div>

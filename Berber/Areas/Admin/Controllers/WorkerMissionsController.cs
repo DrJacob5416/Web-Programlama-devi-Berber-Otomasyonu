@@ -1,6 +1,7 @@
 ﻿using Berber.Areas.Admin.Models;
 using Berber.Models.DatabaseOperations.Operations;
 using Berber.Models.Tables;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Berber.Areas.Admin.Controllers
@@ -9,15 +10,18 @@ namespace Berber.Areas.Admin.Controllers
     public class WorkerMissionsController : Controller
     {
         private readonly IWorkerMissionOp workerMissionOp;
-
-        public WorkerMissionsController(IWorkerMissionOp workerMissionOp)
+        private readonly UserManager<ApplicationUser> userManager;
+        public WorkerMissionsController(IWorkerMissionOp workerMissionOp, UserManager<ApplicationUser> userManager)
         {
             this.workerMissionOp = workerMissionOp;
+            this.userManager = userManager;
         }
 
-        public IActionResult Index(string userid)
+        public async Task<IActionResult> Index(string userid)
         {
             ViewBag.Userid = userid;
+            var currentUser = await userManager.FindByIdAsync(userid);
+            ViewBag.UserFullname = currentUser.FullName;
             return View(workerMissionOp.GetAllByCondition(wm=>wm.WorkerId==userid,("Mission")));
         }
         public IActionResult ChangeStatus(int id, string userId)

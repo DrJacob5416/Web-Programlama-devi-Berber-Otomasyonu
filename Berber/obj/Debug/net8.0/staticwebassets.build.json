@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xa2kuBH/GSzjxuBCN8P0MnNdhwAI25ETDDGltDU0aeY=",
+  "Hash": "VYcwgmfPDGbf8C9QjoqSZrqhKXc9ZLxKKP0fi1/XnfE=",
   "Source": "Berber",
   "BasePath": "_content/Berber",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "21eeb06x0m",
-      "Integrity": "hsnch+TkytpoVvxmopShP/lXJBFVNOcHzxVmX7fPwrA=",
+      "Fingerprint": "8n9mf232qm",
+      "Integrity": "VEHBISaI6Jl8FN0G5k2Ez0gsUdoVFppennO7qBl0cxw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1485,7 +1485,7 @@
       ]
     },
     {
-      "Route": "css/site.21eeb06x0m.css",
+      "Route": "css/site.8n9mf232qm.css",
       "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1495,7 +1495,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "751"
+          "Value": "3220"
         },
         {
           "Name": "Content-Type",
@@ -1503,11 +1503,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hsnch+TkytpoVvxmopShP/lXJBFVNOcHzxVmX7fPwrA=\""
+          "Value": "\"VEHBISaI6Jl8FN0G5k2Ez0gsUdoVFppennO7qBl0cxw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:20:32 GMT"
+          "Value": "Fri, 27 Dec 2024 06:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,7 +1517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "21eeb06x0m"
+          "Value": "8n9mf232qm"
         },
         {
           "Name": "label",
@@ -1525,7 +1525,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hsnch+TkytpoVvxmopShP/lXJBFVNOcHzxVmX7fPwrA="
+          "Value": "sha256-VEHBISaI6Jl8FN0G5k2Ez0gsUdoVFppennO7qBl0cxw="
         }
       ]
     },
@@ -1540,7 +1540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "751"
+          "Value": "3220"
         },
         {
           "Name": "Content-Type",
@@ -1548,11 +1548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hsnch+TkytpoVvxmopShP/lXJBFVNOcHzxVmX7fPwrA=\""
+          "Value": "\"VEHBISaI6Jl8FN0G5k2Ez0gsUdoVFppennO7qBl0cxw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Dec 2024 07:20:32 GMT"
+          "Value": "Fri, 27 Dec 2024 06:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1562,7 +1562,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hsnch+TkytpoVvxmopShP/lXJBFVNOcHzxVmX7fPwrA="
+          "Value": "sha256-VEHBISaI6Jl8FN0G5k2Ez0gsUdoVFppennO7qBl0cxw="
         }
       ]
     },

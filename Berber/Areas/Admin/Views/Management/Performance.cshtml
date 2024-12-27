@@ -1,0 +1,30 @@
+﻿@using Berber.Areas.Admin.Models
+@model List<PerformanceModel>
+@{
+    ViewData["Title"] = "Performance";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<span class="page-title"><span>Çalışan Performans Takibi</span></span>
+<table class="table">
+    <tr>
+        <th>Çalışan</th>
+        <th>Randevu</th>
+        <th>Süre (dk)</th>
+        <th>Kazanç</th>
+        <th>Başarı(Randevuya göre)</th>
+        <th>Başarı(Süreye göre)</th>
+        <th>Popüler Hizmet</th>
+    </tr>
+    @foreach(var item in Model){
+        <tr>
+            <td class="text-uppercase">@item.WorkerName</td>
+            <td>@item.TotalAppointments</td>
+            <td>@item.TotalTime</td>
+            <td>@item.Gain</td>
+            <td>@item.RateByAppointment</td>
+            <td>@item.RateByTime</td>
+            <td class="text-uppercase">@item.Mission</td>
+        </tr>
+    }
+</table>

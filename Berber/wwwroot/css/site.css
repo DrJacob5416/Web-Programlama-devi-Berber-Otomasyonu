@@ -20,22 +20,138 @@ html {
 body {
   margin-bottom: 60px;
 }
+.row{
+    margin:0;
+}
+form label{
+    display:block;
+    font-weight:600;
+    margin-bottom:.3em
+}
+form input, form select, form textarea{
+    width:100%;
+    padding:.2em .5em;
+    margin-bottom:.5em;
+}
+form button {
+    background: linear-gradient(to bottom, black,#494646,black);
+    border: none;
+    color: white;
+    padding: .3em 1em;
+    border-radius: 10px;
+}
+form option, form select{
+    text-transform:uppercase;
+}
 .user-item {
-    margin:.5em 0;
+    margin: .5em 0;
+    padding:0;
+}
+.user-item .select-user:hover {
+    background: linear-gradient(to bottom left, black,#494646,black);
 }
 .user-item .select-user{
-    padding:.5em 10em;
+    padding:.5em 1em;
     text-transform:uppercase;
     font-weight:600;
-    border:none;
-    border-top:1px solid #c2bdbd;
-    border-bottom:2px solid black;
-    border-bottom-left-radius:25px;
-    border-bottom-right-radius:25px;
+    display:block;
+    width:100%;
+    background: linear-gradient(to bottom right, black,#494646,black);
 }
-#userDetails{
-    display:none;
+#userDetails {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #494646;
+    padding:5em 5em;
+}
+#userDetails .userInputDiv{
+    margin-top:2em;
+    margin-bottom:2em;
 }
 #userDetails.show {
     display: block;
+}
+#userList .row{
+    align-items:center;
+    border:1px solid black;
+    margin:1em 0;
+    padding:0 .5em;
+}
+#userList .row .col{
+    text-align: center;
+}
+/*
+
+*/
+.page-title{
+    display:block;
+    margin-bottom:1.5em;
+}
+.page-title span{
+    display:inline-block;
+    padding:1em 2em .3em 0;
+    font-size:20px;
+    font-weight:800;
+    border-bottom:2px solid black;
+}
+.appointment-list{
+    list-style:none;
+}
+.appointment-list, .appointment-list li{
+    padding:0;
+    margin:0;
+}
+.appointment-list a{
+    text-decoration:none;
+    color:white;
+    border: 1px solid #808080;
+    width:100%;
+    display:block;
+    padding:1em;
+    text-transform:uppercase;
+    margin-bottom:.5em;
+    text-align:center;
+    background:linear-gradient(to bottom right, black,#494646,black);
+}
+.appointment-list a:hover{
+    background:linear-gradient(to bottom left, black,#494646,black);
+}
+.appointment-page .row{
+    border:1px solid black;
+    margin:2em 0;
+}
+.appointment-page .row .col{
+    padding:1em
+}
+.appointment-page .row input{
+    width:100%;
+}
+.table th {
+    background: linear-gradient(to bottom, black,#494646,black);
+    color:white;
+}
+.btn-normal {
+    background: linear-gradient(to bottom, black,#494646,black);
+    border:none;
+    color:white;
+    padding:.3em 1em;
+    border-radius:10px;
+}
+.btn-normal:hover{
+    background: linear-gradient(to bottom,#494646, black,#494646);
+}
+.bg-dark-normal {
+    background: linear-gradient(to bottom,#212121, #494646,#212121);
+}
+.text-gray {
+    color: #d5d5d5 !important;
+}
+.link-normal {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding: .3em 1em;
+    color: #494646;
 }

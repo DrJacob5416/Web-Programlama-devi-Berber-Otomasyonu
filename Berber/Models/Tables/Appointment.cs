@@ -13,5 +13,6 @@ namespace Berber.Models.Tables
         public int WorkerMissionId { get; set; }
         [ForeignKey(nameof(WorkerMissionId))]
         public WorkerMission WorkerMission { get; set; }
+        public bool? IsApproval { get; set; }
     }
 }

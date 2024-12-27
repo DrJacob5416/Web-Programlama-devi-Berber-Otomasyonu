@@ -17,5 +17,7 @@ namespace Berber.Models.ServiceModels
         [DataType(DataType.Password)]
         [Compare("Password", ErrorMessage = "Parolalar uyuşmuyor")]
         public string ConfirmPassword { get; set; }
+        [Phone]
+        public string PhoneNumber { get; set; }
     }
 }

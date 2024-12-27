@@ -1,0 +1,39 @@
+﻿@using Berber.Models.Tables
+@model List<Appointment>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<span class="page-title"><span>Randevular</span></span>
+
+<table class="table">
+    <tr>
+        <th>Tarih - Saat</th>
+        <th>Hizmet</th>
+        <th>Müşteri - İsim</th>
+        <th>Müşteri - İletişim</th>
+        <th>Durum</th>
+    </tr>
+    @foreach(var item in Model){
+        <tr>
+            <td>@item.DayTime.ToShortDateString() - @item.HourTime</td>
+            <td>@item.WorkerMission.Mission.Name</td>
+            <td>@item.User.FullName</td>
+            <td>@item.User.PhoneNumber</td>
+            <td>@if (item.IsApproval == true)
+                {
+                    <span>Onay</span>
+                }
+                else @if (item.IsApproval == false)
+                {
+                    <span>İptal</span>
+                }
+                else@if (item.IsApproval == null)
+                {
+                    <span>Beklemede</span>
+                }
+        </td>
+        </tr>
+    }
+</table>

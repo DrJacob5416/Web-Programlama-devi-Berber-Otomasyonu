@@ -5,21 +5,21 @@
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<span class="page-title"><span>Çalışan Hizmet Ayarları - @ViewBag.UserFullname</span></span>
 @await Component.InvokeAsync("CreateWorkerMission", new { workerid = ViewBag.Userid})
 
-<div class="row">
-    <div class="col">Hizmet</div>
-    <div class="col">Fiyat</div>
-    <div class="col">Süre</div>
-    <div class="col">Uzmanlık</div>
+<div class="row" style="margin-bottom:1em;margin-top:3em;">
+    <div class="col" style="padding:1em 1em; background: linear-gradient(to bottom, black,#494646,black); color:white;">Hizmet</div>
+    <div class="col" style="padding:1em 1em; background: linear-gradient(to bottom, black,#494646,black); color:white;">Fiyat</div>
+    <div class="col" style="padding:1em 1em; background: linear-gradient(to bottom, black,#494646,black); color:white;">Süre</div>
+    <div class="col" style="padding:1em 1em; background: linear-gradient(to bottom, black,#494646,black); color:white;">Uzmanlık</div>
 </div>
 @foreach(var item in Model){
-    <div class="row">
-        <div class="col">@item.Mission.Name</div>
-        <div class="col">@item.Price</div>
-        <div class="col">@item.Time</div>
-        <div class="col">
+    <div class="row" style="border-bottom:1px solid #494646; margin-bottom:1em;">
+        <div style="padding:.7em 1em; text-transform:uppercase;" class="col">@item.Mission.Name</div>
+        <div style="padding:.7em 1em;" class="col">@item.Price</div>
+        <div style="padding:.7em 1em;" class="col">@item.Time</div>
+        <div style="padding:.7em 1em;" class="col">
             @if(item.isSpecialist){
                 <a asp-area="Admin" asp-controller="WorkerMissions" asp-action="ChangeStatus" asp-route-id="@item.Id" asp-route-userId="@item.WorkerId" class="btn btn-warning">Çıkar</a>
             }

@@ -91,6 +91,10 @@ namespace Berber.Controllers
         }
         public IActionResult CancelAppointment(int id)
         {
+            var appointment = _appointmentOp.GetById(id);
+            appointment.IsApproval = false;
+            _appointmentOp.Update(appointment);
+            _appointmentOp.Save();
             return RedirectToAction("AppointmentHistory","Home");
         }
 

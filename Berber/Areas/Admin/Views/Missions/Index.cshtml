@@ -4,18 +4,18 @@
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
-
-<h1>Hizmetler<a asp-area="Admin" asp-controller="Missions" asp-action="Create" class="float-end">Yeni Hizmet</a></h1>
-<div class="row">
-    <div class="col"><strong>İsim</strong></div>
-    <div class="col"><strong>İşlemler</strong></div>
+<span class="page-title"><span>Hizmetler</span></span>
+<a asp-area="Admin" asp-controller="Missions" asp-action="Create" class="link-normal">Yeni Hizmet Ekle</a>
+<div class="row" style="margin-bottom:1em;margin-top:2em;">
+    <div class="col" style="padding:1em 1em; background: linear-gradient(to bottom, black,#494646,black); color:white;"><strong>İsim</strong></div>
+    <div class="col" style="padding:1em 1em; background: linear-gradient(to bottom, black,#494646,black); color:white;"><strong>İşlemler</strong></div>
 </div>
 @foreach(var mis in Model){
-    <div class="row">
-        <div class="col">@mis.Name</div>
-        <div class="col">
-            <a asp-area="Admin" asp-controller="Missions" asp-action="Update" asp-route-id="@mis.Id">Güncelle</a>
-            <a asp-area="Admin" asp-controller="Missions" asp-action="Delete" asp-route-id="@mis.Id">Sil</a>
+    <div class="row" style="border-bottom:1px solid #494646; margin-bottom:1em;">
+        <div class="col" style="padding:.7em 1em; text-transform:uppercase;">@mis.Name</div>
+        <div class="col" style="padding:.7em 1em;">
+            <a class="link-normal" asp-area="Admin" asp-controller="Missions" asp-action="Update" asp-route-id="@mis.Id">Güncelle</a>
+            <a class="link-normal" asp-area="Admin" asp-controller="Missions" asp-action="Delete" asp-route-id="@mis.Id">Sil</a>
         </div>
     </div>
 }

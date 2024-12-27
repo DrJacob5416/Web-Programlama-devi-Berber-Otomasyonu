@@ -1,0 +1,69 @@
+﻿@using Berber.Models.Tables
+@model List<Appointment>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<span class="page-title"><span>Randevu Yönetimi</span></span>
+<ul class="list-unstyled d-flex">
+    <li><a class="link-normal" asp-area="Admin" asp-controller="Management" asp-action="Index" asp-route-status="Tümü">Tümü</a></li>
+    <li><a class="link-normal" asp-area="Admin" asp-controller="Management" asp-action="Index" asp-route-status="Onaylandi">Onaylananlar</a></li>
+    <li><a class="link-normal" asp-area="Admin" asp-controller="Management" asp-action="Index" asp-route-status="Beklemede">Bekleyenler</a></li>
+    <li><a class="link-normal" asp-area="Admin" asp-controller="Management" asp-action="Index" asp-route-status="IptalEdildi">İptal edilenler</a></li>
+</ul>
+<span class="d-block p-1 mb-3"></span>
+@if (TempData["Appointment"] != null){
+    <div class="bg-info p-2">
+        @TempData["Appointment"]
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tarih</th>
+            <th>Saat - Süre</th>
+            <th>Fiyat</th>
+            <th>Çalışan</th>
+        </tr>
+        <tr>
+            <th>Müşteri</th>
+            <th>Hizmet</th>
+            <th>Durum</th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach(var appointment in Model){
+        <tbody>
+            <tr>
+                <td>@appointment.DayTime.ToShortDateString()</td>
+                <td>@appointment.HourTime <span class="d-block">@appointment.WorkerMission.Time dk</span></td>
+                <td>@appointment.WorkerMission.Price</td>
+                <td style="text-transform:uppercase;">@appointment.WorkerMission.Worker.FullName</td>
+            </tr>
+            <tr style="background:#494646; border-bottom:5px solid black;">
+                <td style="text-transform:uppercase;" class="text-gray">@appointment.User.FullName</td>
+                <td style="text-transform:uppercase;" class="text-gray">@appointment.WorkerMission.Mission.Name</td>
+                <td>@if (appointment.IsApproval == true)
+                    {
+                        <span class="text-gray">Onaylandı</span>
+                    }
+                    else if (appointment.IsApproval == false)
+                    {
+                        <span class="text-gray">İptal Edildi</span>
+                    }
+                    else if (appointment.IsApproval == null)
+                    {
+                        <span class="text-gray">Beklemede</span>
+                    }</td>
+                <td>
+                    @if (appointment.IsApproval == null)
+                    {
+                        <a class="text-gray link-normal" asp-area="Admin" asp-controller="Management" asp-action="CancelAppointment" asp-route-id="@appointment.Id">İptal et</a>
+                        <a class="text-gray link-normal" asp-area="Admin" asp-controller="Management" asp-action="ApproveAppointment" asp-route-id="@appointment.Id">Onayla</a>
+                    }
+                </td>
+            </tr>
+        </tbody>
+    }
+</table>

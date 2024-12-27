@@ -28,6 +28,14 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Management/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFuYWdlbWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Management/Performance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFuYWdlbWVudFxQZXJmb3JtYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Areas/Admin/Views/Missions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWlzc2lvbnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,10 +84,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -94,6 +98,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/SignUp/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/Workers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV29ya2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/me_ct/OneDrive/Masaüstü/PROJELER/Yakup Turan B201210012/Berber/Berber/Views/_ViewImports.cshtml]

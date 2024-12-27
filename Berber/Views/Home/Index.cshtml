@@ -4,9 +4,8 @@
     ViewData["Title"] = "Home Page";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<a asp-controller="Home" asp-action="AppointmentHistory">Randevu Geçmişi</a>
-<ul>
+<span class="page-title"><span>Randevu al</span></span>
+<ul class="appointment-list">
     @foreach (var mission in Model)
     {
         <li><a asp-controller="Home" asp-action="Index" asp-route-missionid="@mission.Id">@mission.Name</a></li>
@@ -15,24 +14,39 @@
 @if(ViewBag.MissionId!=null){
     foreach(var mission in Model){
         if(mission.Id==ViewBag.MissionId){
-            <input id="dayTime" value="Randevu tarihini seçiniz" type="datetime-local" />
-            <input id="hourTime" value="Randevu saatini seçiniz" type="time" />
-            <table class="table">
-                <tr>
-                    <th>Çalışan</th>
-                    <th>Fiyat</th>
-                    <th>Zaman (dk)</th>
-                    <th></th>
-                </tr>
-                @foreach(var workermission in mission.WorkerMissions){
+            <div class="appointment-page">
+                <div class="row">
+                    <div class="col">
+                        <b class="d-block mb-2">Tarih :</b>
+                        <input id="dayTime" value="Randevu tarihini seçiniz" type="datetime-local" />
+
+                    </div><div class="col">
+
+                        <b class="d-block mb-2">Saat :</b>
+                        <input id="hourTime" value="Randevu saatini seçiniz" type="time" />
+                    </div>
+                </div>
+                <table class="table table-striped table-bordered">
                     <tr>
-                        <td>@workermission.Worker.FullName @if(workermission.isSpecialist){<b> + Usta</b>}</td>
-                        <td>@workermission.Price</td>
-                        <td>@workermission.Time</td>
-                        <td><button type="button" data-id="@workermission.Id">Randevu al</button></td>
+                        <th>Çalışan</th>
+                        <th>Fiyat</th>
+                        <th>Zaman (dk)</th>
+                        <th></th>
                     </tr>
-                }
-            </table>
+                    @foreach (var workermission in mission.WorkerMissions)
+                    {
+                        <tr>
+                            <td>@workermission.Worker.FullName @if (workermission.isSpecialist)
+                                {
+                                    <b> + Usta</b>
+                                }</td>
+                            <td>@workermission.Price</td>
+                            <td>@workermission.Time</td>
+                            <td><button class="btn-normal" type="button" data-id="@workermission.Id">Randevu al</button></td>
+                        </tr>
+                    }
+                </table>
+            </div>
 
 
             break;
