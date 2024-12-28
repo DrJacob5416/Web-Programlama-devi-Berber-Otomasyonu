@@ -3,6 +3,7 @@ using Berber.Models;
 using Berber.Models.DatabaseOperations.Operations;
 using Berber.Models.ServiceModels;
 using Berber.Models.Tables;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -33,6 +34,7 @@ namespace Berber.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public async Task<IActionResult> CreateAppointment([FromBody] RandevuModel model)
         {
             if (model == null || string.IsNullOrEmpty(model.DayTime) || string.IsNullOrEmpty(model.HourTime) || string.IsNullOrEmpty(model.WorkerMissionId))
@@ -82,6 +84,7 @@ namespace Berber.Controllers
             _appointmentOp.Save();
             return Json(new { success = true, message = "Randevu baþarýyla alýndý." });
         }
+        [Authorize]
         public async Task<IActionResult> AppointmentHistory()
         {
             var currentUser = await _userManager.FindByEmailAsync(User.Identity.Name);
@@ -89,6 +92,7 @@ namespace Berber.Controllers
 
             return View(appointments);
         }
+        [Authorize]
         public IActionResult CancelAppointment(int id)
         {
             var appointment = _appointmentOp.GetById(id);

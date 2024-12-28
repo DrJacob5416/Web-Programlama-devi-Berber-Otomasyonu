@@ -19,19 +19,26 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-gray" asp-area="" asp-controller="Home" asp-action="Index">Randevu al</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-gray" asp-area="" asp-controller="YapayZeka" asp-action="Index">Yapay Zeka</a>
+                        </li>
                         @if(User.Identity.IsAuthenticated){
-                            <li class="nav-item">
-                                <a class="nav-link text-gray" asp-area="" asp-controller="Home" asp-action="Index">Randevu al</a>
-                            </li>
                             <li class="nav-item">
                                 <a class="nav-link text-gray" asp-area="" asp-controller="Home" asp-action="AppointmentHistory">Randevu Geçmişi</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-gray" asp-area="" asp-controller="Workers" asp-action="Index">Randevular (Çalışan)</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-gray" asp-area="Admin" asp-controller="Users" asp-action="Index">Panel</a>
-                            </li>
+                            @if(User.IsInRole("Worker")){
+                                <li class="nav-item">
+                                    <a class="nav-link text-gray" asp-area="" asp-controller="Workers" asp-action="Index">Randevular (Çalışan)</a>
+                                </li>
+                            }
+                            @if(User.IsInRole("Admin")){
+                                <li class="nav-item">
+                                    <a class="nav-link text-gray" asp-area="Admin" asp-controller="Users" asp-action="Index">Panel</a>
+                                </li>
+                            }
                             <li class="nav-item">
                                 <a class="nav-link text-gray" asp-area="" asp-controller="SignOut" asp-action="Index">Çıkış</a>
                             </li>

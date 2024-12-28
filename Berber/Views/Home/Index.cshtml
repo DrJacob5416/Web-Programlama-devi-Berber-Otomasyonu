@@ -42,7 +42,8 @@
                                 }</td>
                             <td>@workermission.Price</td>
                             <td>@workermission.Time</td>
-                            <td><button class="btn-normal" type="button" data-id="@workermission.Id">Randevu al</button></td>
+                            @{var dis = User.Identity.IsAuthenticated == true ? "" : "disabled";}
+                            <td><button @dis class="btn-normal" type="button" data-id="@workermission.Id">Randevu al</button></td>
                         </tr>
                     }
                 </table>

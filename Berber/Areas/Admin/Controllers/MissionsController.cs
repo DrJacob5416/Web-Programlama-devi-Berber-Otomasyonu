@@ -1,6 +1,7 @@
 ﻿using Berber.Models.DatabaseOperations.Operations;
 using Berber.Models.ServiceModels;
 using Berber.Models.Tables;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -11,6 +12,7 @@ using System.Security.Claims;
 namespace Berber.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class MissionsController : Controller
     {
         private readonly IMissionOp missionOp;

@@ -19,6 +19,12 @@ namespace Berber.Models.Database
                 .HasForeignKey(wm => wm.WorkerId)
                 .OnDelete(DeleteBehavior.Cascade);
 
+            modelBuilder.Entity<YapayZeka>()
+                .HasOne(wm => wm.ApplicationUser)
+                .WithMany()
+                .HasForeignKey(wm => wm.ApplicationUserId)
+                .OnDelete(DeleteBehavior.NoAction);
+
             modelBuilder.Entity<WorkerMission>()
                 .HasOne(wm => wm.Worker)         
                 .WithMany(w => w.WorkerMissions)  
@@ -48,5 +54,6 @@ namespace Berber.Models.Database
         DbSet<Mission> Missions { get; set; }
         DbSet<WorkingHour> WorkingHours { get; set; }
         DbSet<Appointment> Appointments { get; set; }
+        DbSet<YapayZeka> YapayZekas { get; set; }
     }
 }

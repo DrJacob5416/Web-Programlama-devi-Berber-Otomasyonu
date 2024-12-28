@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VYcwgmfPDGbf8C9QjoqSZrqhKXc9ZLxKKP0fi1/XnfE=",
+  "Hash": "isO4E+5cPsp5TBzWMATzEDiRkfHE0rxC2FYRFianz0s=",
   "Source": "Berber",
   "BasePath": "_content/Berber",
   "Mode": "Default",
@@ -99,6 +99,258 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\az.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/az#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kt4786108o",
+      "Integrity": "KAR5QbjYg1lbmQ6zYCXgZ5ZnTwVDb2IMY2x1J9VWQcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\az.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\cok.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/cok#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ymtqrsdbd6",
+      "Integrity": "dmyJz6BvmI6YSPUU625n9G4awRfb2okEfyylz3kh+kI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cok.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\dalgali.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/dalgali#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gpjamb157a",
+      "Integrity": "RLRFNFjyF7gNbPSKdGWCOfau9K3SuHJF7GjHywvb3mU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\dalgali.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\duz.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/duz#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sgfnr796fx",
+      "Integrity": "DDVf3cY/QtYn00RILiHAtqFJuvhhTfq/PI8nQylOMCk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\duz.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kalp.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/kalp#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s11zrhxygm",
+      "Integrity": "8KAgkGDcbqPLpm/OAJ+KkhstSTitwu1l6eagj2CjuqM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\kalp.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kare.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/kare#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pqh5zwvss6",
+      "Integrity": "76OQ3hRDE0H5yjYPtYdQlv3n8/yX04JCGN6XPsqa7Is=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\kare.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kivircik.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/kivircik#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c1or8icwyv",
+      "Integrity": "cAK7UtHy2XRptfiZUP4VdDOMsvwgvnJ2kGI9Gb+6mpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\kivircik.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\koseli.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/koseli#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a90vyghl85",
+      "Integrity": "8vqwIJ7n7reMGaEq84Z4WW4jeaVeRFP4Ouf1MQpyD5s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\koseli.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\orta.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/orta#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cblxjo1bxq",
+      "Integrity": "2PK8C0bYHXvZ1MWIpZbV3Aendl7+V+hb2aJS1JPRVc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\orta.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\oval.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/oval#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1qg9nklm4r",
+      "Integrity": "FyzhDC8yMiuU1symHbqdSyRqgALMgImEAY2OEWbs64w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\oval.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\uzun.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/uzun#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "disi3jmcxj",
+      "Integrity": "1c/XhVsMgIFYR5U1lyTGVxfzM8tCDEI/SNQtfsJ/lQ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\uzun.png"
+    },
+    {
+      "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\yuvarlak.png",
+      "SourceId": "Berber",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\",
+      "BasePath": "_content/Berber",
+      "RelativePath": "img/yuvarlak#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j9ihxz1wkw",
+      "Integrity": "t7MpCJ4I1MQwXc+v2/4XrpY2XiGtmvF8CKp9YjmXOq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\yuvarlak.png"
     },
     {
       "Identity": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\js\\site.js",
@@ -1645,6 +1897,990 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/az.kt4786108o.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\az.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KAR5QbjYg1lbmQ6zYCXgZ5ZnTwVDb2IMY2x1J9VWQcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:12:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kt4786108o"
+        },
+        {
+          "Name": "label",
+          "Value": "img/az.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KAR5QbjYg1lbmQ6zYCXgZ5ZnTwVDb2IMY2x1J9VWQcI="
+        }
+      ]
+    },
+    {
+      "Route": "img/az.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\az.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KAR5QbjYg1lbmQ6zYCXgZ5ZnTwVDb2IMY2x1J9VWQcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:12:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KAR5QbjYg1lbmQ6zYCXgZ5ZnTwVDb2IMY2x1J9VWQcI="
+        }
+      ]
+    },
+    {
+      "Route": "img/cok.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\cok.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dmyJz6BvmI6YSPUU625n9G4awRfb2okEfyylz3kh+kI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dmyJz6BvmI6YSPUU625n9G4awRfb2okEfyylz3kh+kI="
+        }
+      ]
+    },
+    {
+      "Route": "img/cok.ymtqrsdbd6.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\cok.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dmyJz6BvmI6YSPUU625n9G4awRfb2okEfyylz3kh+kI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:13:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ymtqrsdbd6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/cok.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dmyJz6BvmI6YSPUU625n9G4awRfb2okEfyylz3kh+kI="
+        }
+      ]
+    },
+    {
+      "Route": "img/dalgali.gpjamb157a.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\dalgali.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RLRFNFjyF7gNbPSKdGWCOfau9K3SuHJF7GjHywvb3mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpjamb157a"
+        },
+        {
+          "Name": "label",
+          "Value": "img/dalgali.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RLRFNFjyF7gNbPSKdGWCOfau9K3SuHJF7GjHywvb3mU="
+        }
+      ]
+    },
+    {
+      "Route": "img/dalgali.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\dalgali.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RLRFNFjyF7gNbPSKdGWCOfau9K3SuHJF7GjHywvb3mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:09:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RLRFNFjyF7gNbPSKdGWCOfau9K3SuHJF7GjHywvb3mU="
+        }
+      ]
+    },
+    {
+      "Route": "img/duz.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\duz.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DDVf3cY/QtYn00RILiHAtqFJuvhhTfq/PI8nQylOMCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DDVf3cY/QtYn00RILiHAtqFJuvhhTfq/PI8nQylOMCk="
+        }
+      ]
+    },
+    {
+      "Route": "img/duz.sgfnr796fx.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\duz.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55764"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DDVf3cY/QtYn00RILiHAtqFJuvhhTfq/PI8nQylOMCk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:10:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sgfnr796fx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/duz.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DDVf3cY/QtYn00RILiHAtqFJuvhhTfq/PI8nQylOMCk="
+        }
+      ]
+    },
+    {
+      "Route": "img/kalp.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kalp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8KAgkGDcbqPLpm/OAJ+KkhstSTitwu1l6eagj2CjuqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:06:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8KAgkGDcbqPLpm/OAJ+KkhstSTitwu1l6eagj2CjuqM="
+        }
+      ]
+    },
+    {
+      "Route": "img/kalp.s11zrhxygm.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kalp.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8KAgkGDcbqPLpm/OAJ+KkhstSTitwu1l6eagj2CjuqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:06:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s11zrhxygm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/kalp.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8KAgkGDcbqPLpm/OAJ+KkhstSTitwu1l6eagj2CjuqM="
+        }
+      ]
+    },
+    {
+      "Route": "img/kare.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kare.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"76OQ3hRDE0H5yjYPtYdQlv3n8/yX04JCGN6XPsqa7Is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:05:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-76OQ3hRDE0H5yjYPtYdQlv3n8/yX04JCGN6XPsqa7Is="
+        }
+      ]
+    },
+    {
+      "Route": "img/kare.pqh5zwvss6.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kare.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"76OQ3hRDE0H5yjYPtYdQlv3n8/yX04JCGN6XPsqa7Is=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:05:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqh5zwvss6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/kare.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-76OQ3hRDE0H5yjYPtYdQlv3n8/yX04JCGN6XPsqa7Is="
+        }
+      ]
+    },
+    {
+      "Route": "img/kivircik.c1or8icwyv.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kivircik.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAK7UtHy2XRptfiZUP4VdDOMsvwgvnJ2kGI9Gb+6mpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:11:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c1or8icwyv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/kivircik.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAK7UtHy2XRptfiZUP4VdDOMsvwgvnJ2kGI9Gb+6mpc="
+        }
+      ]
+    },
+    {
+      "Route": "img/kivircik.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kivircik.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAK7UtHy2XRptfiZUP4VdDOMsvwgvnJ2kGI9Gb+6mpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:11:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAK7UtHy2XRptfiZUP4VdDOMsvwgvnJ2kGI9Gb+6mpc="
+        }
+      ]
+    },
+    {
+      "Route": "img/koseli.a90vyghl85.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\koseli.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8vqwIJ7n7reMGaEq84Z4WW4jeaVeRFP4Ouf1MQpyD5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:04:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a90vyghl85"
+        },
+        {
+          "Name": "label",
+          "Value": "img/koseli.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8vqwIJ7n7reMGaEq84Z4WW4jeaVeRFP4Ouf1MQpyD5s="
+        }
+      ]
+    },
+    {
+      "Route": "img/koseli.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\koseli.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8vqwIJ7n7reMGaEq84Z4WW4jeaVeRFP4Ouf1MQpyD5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:04:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8vqwIJ7n7reMGaEq84Z4WW4jeaVeRFP4Ouf1MQpyD5s="
+        }
+      ]
+    },
+    {
+      "Route": "img/orta.cblxjo1bxq.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\orta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PK8C0bYHXvZ1MWIpZbV3Aendl7+V+hb2aJS1JPRVc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:12:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cblxjo1bxq"
+        },
+        {
+          "Name": "label",
+          "Value": "img/orta.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PK8C0bYHXvZ1MWIpZbV3Aendl7+V+hb2aJS1JPRVc8="
+        }
+      ]
+    },
+    {
+      "Route": "img/orta.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\orta.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PK8C0bYHXvZ1MWIpZbV3Aendl7+V+hb2aJS1JPRVc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:12:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PK8C0bYHXvZ1MWIpZbV3Aendl7+V+hb2aJS1JPRVc8="
+        }
+      ]
+    },
+    {
+      "Route": "img/oval.1qg9nklm4r.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\oval.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FyzhDC8yMiuU1symHbqdSyRqgALMgImEAY2OEWbs64w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1qg9nklm4r"
+        },
+        {
+          "Name": "label",
+          "Value": "img/oval.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FyzhDC8yMiuU1symHbqdSyRqgALMgImEAY2OEWbs64w="
+        }
+      ]
+    },
+    {
+      "Route": "img/oval.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\oval.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FyzhDC8yMiuU1symHbqdSyRqgALMgImEAY2OEWbs64w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:07:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FyzhDC8yMiuU1symHbqdSyRqgALMgImEAY2OEWbs64w="
+        }
+      ]
+    },
+    {
+      "Route": "img/uzun.disi3jmcxj.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\uzun.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1c/XhVsMgIFYR5U1lyTGVxfzM8tCDEI/SNQtfsJ/lQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "disi3jmcxj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/uzun.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1c/XhVsMgIFYR5U1lyTGVxfzM8tCDEI/SNQtfsJ/lQ0="
+        }
+      ]
+    },
+    {
+      "Route": "img/uzun.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\uzun.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1c/XhVsMgIFYR5U1lyTGVxfzM8tCDEI/SNQtfsJ/lQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1c/XhVsMgIFYR5U1lyTGVxfzM8tCDEI/SNQtfsJ/lQ0="
+        }
+      ]
+    },
+    {
+      "Route": "img/yuvarlak.j9ihxz1wkw.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\yuvarlak.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t7MpCJ4I1MQwXc+v2/4XrpY2XiGtmvF8CKp9YjmXOq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j9ihxz1wkw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/yuvarlak.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t7MpCJ4I1MQwXc+v2/4XrpY2XiGtmvF8CKp9YjmXOq4="
+        }
+      ]
+    },
+    {
+      "Route": "img/yuvarlak.png",
+      "AssetFile": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\yuvarlak.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t7MpCJ4I1MQwXc+v2/4XrpY2XiGtmvF8CKp9YjmXOq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 15:05:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t7MpCJ4I1MQwXc+v2/4XrpY2XiGtmvF8CKp9YjmXOq4="
         }
       ]
     },

@@ -22,11 +22,12 @@ builder.Services.AddIdentity<ApplicationUser, ApplicationRole>(opt =>
     .AddRoleManager<RoleManager<ApplicationRole>>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
-
+builder.Services.AddHttpClient();
 builder.Services.AddScoped<IMissionOp, MissionOp>();
 builder.Services.AddScoped<IWorkerMissionOp, WorkerMissionOp>();
 builder.Services.AddScoped<IWorkingHourOp, WorkingHourOp>();
 builder.Services.AddScoped<IAppointmentOp, AppointmentOp>();
+builder.Services.AddScoped<IYapayZekaOp, YapayZekaOp>();
 
 
 builder.Services.ConfigureApplicationCookie(opt =>

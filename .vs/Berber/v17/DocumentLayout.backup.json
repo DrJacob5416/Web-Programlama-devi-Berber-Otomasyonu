@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\views\\signup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\views\\signup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\views\\signin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\views\\signin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\areas\\admin\\views\\missions\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\areas\\admin\\views\\missions\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\models\\servicemodels\\missioncreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\models\\servicemodels\\missioncreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\areas\\admin\\views\\missions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\areas\\admin\\views\\missions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\models\\tables\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\models\\tables\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\areas\\admin\\views\\workermissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\areas\\admin\\views\\workermissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|c:\\users\\me_ct\\onedrive\\masa\u00FCst\u00FC\\projeler\\yakup turan b201210012\\berber\\berber\\areas\\admin\\controllers\\workermissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB17C4A5-1999-452C-A7FC-7193C1491406}|Berber\\Berber.csproj|solutionrelative:berber\\areas\\admin\\controllers\\workermissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Views\\SignUp\\Index.cshtml",
-              "RelativeDocumentMoniker": "Berber\\Views\\SignUp\\Index.cshtml",
-              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Views\\SignUp\\Index.cshtml",
-              "RelativeToolTip": "Berber\\Views\\SignUp\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Views\\Missions\\Update.cshtml",
+              "RelativeDocumentMoniker": "Berber\\Areas\\Admin\\Views\\Missions\\Update.cshtml",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Views\\Missions\\Update.cshtml",
+              "RelativeToolTip": "Berber\\Areas\\Admin\\Views\\Missions\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-27T06:35:49.579Z",
+              "WhenOpened": "2024-12-28T16:01:35.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Views\\SignIn\\Index.cshtml",
-              "RelativeDocumentMoniker": "Berber\\Views\\SignIn\\Index.cshtml",
-              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Views\\SignIn\\Index.cshtml",
-              "RelativeToolTip": "Berber\\Views\\SignIn\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MissionCreateModel.cs",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Models\\ServiceModels\\MissionCreateModel.cs",
+              "RelativeDocumentMoniker": "Berber\\Models\\ServiceModels\\MissionCreateModel.cs",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Models\\ServiceModels\\MissionCreateModel.cs",
+              "RelativeToolTip": "Berber\\Models\\ServiceModels\\MissionCreateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:01:24.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Views\\Missions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Berber\\Areas\\Admin\\Views\\Missions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Views\\Missions\\Create.cshtml",
+              "RelativeToolTip": "Berber\\Areas\\Admin\\Views\\Missions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-27T06:35:36.52Z",
+              "WhenOpened": "2024-12-28T16:01:20.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mission.cs",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Models\\Tables\\Mission.cs",
+              "RelativeDocumentMoniker": "Berber\\Models\\Tables\\Mission.cs",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Models\\Tables\\Mission.cs",
+              "RelativeToolTip": "Berber\\Models\\Tables\\Mission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:00:50.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Views\\WorkerMissions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Berber\\Areas\\Admin\\Views\\WorkerMissions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Views\\WorkerMissions\\Index.cshtml",
+              "RelativeToolTip": "Berber\\Areas\\Admin\\Views\\WorkerMissions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T15:58:41.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorkerMissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Controllers\\WorkerMissionsController.cs",
+              "RelativeDocumentMoniker": "Berber\\Areas\\Admin\\Controllers\\WorkerMissionsController.cs",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\Areas\\Admin\\Controllers\\WorkerMissionsController.cs",
+              "RelativeToolTip": "Berber\\Areas\\Admin\\Controllers\\WorkerMissionsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T15:58:37.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\appsettings.json",
+              "RelativeDocumentMoniker": "Berber\\appsettings.json",
+              "ToolTip": "C:\\Users\\me_ct\\OneDrive\\Masa\u00FCst\u00FC\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\appsettings.json",
+              "RelativeToolTip": "Berber\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-28T15:55:25.638Z",
               "EditorCaption": ""
             }
           ]

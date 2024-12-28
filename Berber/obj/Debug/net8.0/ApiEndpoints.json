@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "Berber.Controllers.BerberApiController",
+    "Method": "AllAnswers",
+    "RelativePath": "api/BerberApi/AllAnswers",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Berber.Controllers.BerberApiController",
+    "Method": "AllAnswers",
+    "RelativePath": "api/BerberApi/AllAnswers/{applicationUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationUserId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Berber.Controllers.BerberApiController",
+    "Method": "CreateYapayZeka",
+    "RelativePath": "api/BerberApi/CreateYapayZeka",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yapayZekaModel",
+        "Type": "Berber.Models.ServiceModels.YapayZekaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -13,6 +13,54 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\az.png",
+      "PackagePath": "staticwebassets\\img\\az.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\cok.png",
+      "PackagePath": "staticwebassets\\img\\cok.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\dalgali.png",
+      "PackagePath": "staticwebassets\\img\\dalgali.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\duz.png",
+      "PackagePath": "staticwebassets\\img\\duz.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kalp.png",
+      "PackagePath": "staticwebassets\\img\\kalp.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kare.png",
+      "PackagePath": "staticwebassets\\img\\kare.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\kivircik.png",
+      "PackagePath": "staticwebassets\\img\\kivircik.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\koseli.png",
+      "PackagePath": "staticwebassets\\img\\koseli.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\orta.png",
+      "PackagePath": "staticwebassets\\img\\orta.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\oval.png",
+      "PackagePath": "staticwebassets\\img\\oval.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\uzun.png",
+      "PackagePath": "staticwebassets\\img\\uzun.png"
+    },
+    {
+      "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\img\\yuvarlak.png",
+      "PackagePath": "staticwebassets\\img\\yuvarlak.png"
+    },
+    {
       "Id": "C:\\Users\\me_ct\\OneDrive\\Masaüstü\\PROJELER\\Yakup Turan B201210012\\Berber\\Berber\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,12 +1,14 @@
 ﻿using Berber.Areas.Admin.Models;
 using Berber.Models.DatabaseOperations.Operations;
 using Berber.Models.Tables;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Berber.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class WorkerMissionsController : Controller
     {
         private readonly IWorkerMissionOp workerMissionOp;

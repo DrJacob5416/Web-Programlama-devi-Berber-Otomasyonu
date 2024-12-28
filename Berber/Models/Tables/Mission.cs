@@ -6,6 +6,7 @@ namespace Berber.Models.Tables
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name = "Hizmet İsmi")]
         public string Name { get; set; }
         public ICollection<WorkerMission> WorkerMissions { get; set; }
     }

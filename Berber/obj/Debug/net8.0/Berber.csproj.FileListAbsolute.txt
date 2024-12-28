@@ -267,3 +267,4 @@ C:\Users\me_ct\OneDrive\Masaüstü\PROJELER\Yakup Turan B201210012\Berber\Berber
 C:\Users\me_ct\OneDrive\Masaüstü\PROJELER\Yakup Turan B201210012\Berber\Berber\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\me_ct\OneDrive\Masaüstü\PROJELER\Yakup Turan B201210012\Berber\Berber\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\me_ct\OneDrive\Masaüstü\PROJELER\Yakup Turan B201210012\Berber\Berber\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\me_ct\OneDrive\Masaüstü\PROJELER\Yakup Turan B201210012\Berber\Berber\bin\Debug\net8.0\OpenAI.dll

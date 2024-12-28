@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div id="squares">
+        <!-- Kareler -->
+        <div class="square" data-id="1">Yüz Tipi</div>
+        <div class="square" data-id="2">Saç Tipi</div>
+        <div class="square" data-id="3">Sakal Tipi</div>
+    </div>
+
+    <button id="submitBtn" class="btn btn-primary mt-3">Gönder</button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="photoModalLabel">Fotoğraf Seç</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="photo-options" class="photo-options">
+                    <!-- Fotoğraflar Dinamik Olarak Yüklenecek -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        let squarePhotos = {
+            1: [
+                { src: "@Url.Content("~/img/kalp.png")", value: "kalp" },
+                { src: "@Url.Content("~/img/kare.png")", value: "kare" },
+                { src: "@Url.Content("~/img/koseli.png")", value: "koseli" },
+                { src: "@Url.Content("~/img/oval.png")", value: "oval" },
+                { src: "@Url.Content("~/img/yuvarlak.png")", value: "yuvarlak" },
+                { src: "@Url.Content("~/img/uzun.png")", value: "uzun" }
+            ],
+            2: [
+                { src: "@Url.Content("~/img/duz.png")", value: "duz" },
+                { src: "@Url.Content("~/img/kivircik.png")", value: "kivircik" },
+                { src: "@Url.Content("~/img/dalgali.png")", value: "dalgali" }
+            ],
+            3: [
+                { src: "@Url.Content("~/img/az.png")", value: "sakalsiz" },
+                { src: "@Url.Content("~/img/orta.png")", value: "az sakalli" },
+                { src: "@Url.Content("~/img/cok.png")", value: "uzun sakalli" }
+            ]
+        };
+
+        let selectedPhotos = {}; // Seçilen fotoğraflar için bir obje
+
+        $(document).ready(function () {
+            // Kareye tıklama
+            $(".square").on("click", function () {
+                const squareId = $(this).data("id");
+                const photos = squarePhotos[squareId];
+
+                // Modal içeriğini temizle
+                $("#photo-options").empty();
+
+                // Fotoğrafları modal içine ekle
+                photos.forEach(photo => {
+                    const photoElement = `
+                        <img src="${photo.src}" alt="${photo.value}"
+                             class="img-thumbnail selectable-photo"
+                             data-value="${photo.value}" style="margin: 5px;">
+                    `;
+                    $("#photo-options").append(photoElement);
+                });
+
+                // Modal'ı kareye bağla
+                $("#photoModal").data("square-id", squareId).modal("show");
+            });
+
+            // Fotoğrafa tıklama
+            $(document).on("click", ".selectable-photo", function () {
+                const photoSrc = $(this).attr("src");
+                const photoValue = $(this).data("value");
+                const squareId = $("#photoModal").data("square-id");
+
+                // Seçilen fotoğrafı kareye yerleştir
+                $(`.square[data-id="${squareId}"]`).html(`<img src="${photoSrc}" alt="${photoValue}">`);
+
+                // Seçilen fotoğrafı kaydet
+                selectedPhotos[squareId] = { src: photoSrc, value: photoValue };
+
+                // Modal'ı kapat
+                $("#photoModal").modal("hide");
+            });
+
+            // Gönder butonuna tıklama
+            $("#submitBtn").on("click", function () {
+                // Seçilen fotoğrafları controller'a gönder
+                $.ajax({
+                    url: "/YapayZeka/Index",
+                    type: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(selectedPhotos),
+                    success: function (response) {
+                        alert("Başarıyla gönderildi!");
+                    },
+                    error: function (xhr, status, error) {
+                        alert("Bir hata oluştu: " + error);
+                    }
+                });
+            });
+        });
+
+    </script>
+}

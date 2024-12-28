@@ -1,10 +1,12 @@
 ﻿using Berber.Models.DatabaseOperations.Operations;
 using Berber.Models.Tables;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Berber.Controllers
 {
+    [Authorize(Roles ="Worker")]
     public class WorkersController : Controller
     {
         private readonly IAppointmentOp appointmentOp;
